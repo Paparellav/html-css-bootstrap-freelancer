@@ -44,3 +44,50 @@ li a {
     text-decoration: none;
     color: white;
 }
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #1abc9c;
+    padding: 2rem 0;
+
+}
+
+.jumbotron_logo {
+    width: 150px;
+}
+
+.jumbotron_title {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 1rem;
+}
+
+.star_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+.star_bar {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.star {
+    display: inline-block;
+    padding: 0 .5rem;
+    font-size: .8rem;
+}
+
+.jumbotron_ref {
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
