@@ -179,3 +179,11 @@ textarea {
     border-right: none;
     border-color: #b0b5b9;
 }
+
+button {
+    padding: .3rem .8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: white;
+}
