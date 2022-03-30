@@ -12,7 +12,6 @@ ul {
 
 ul li {
     display: inline-block;
-    margin: 0 .5rem;
 }
 
 .border_bottom {
@@ -23,7 +22,6 @@ ul li {
 header {
     height: 60px;
     line-height: 60px;
-    text-transform: uppercase;
     background-color: #2c3e50;
     color: white;
 }
@@ -63,12 +61,6 @@ li a {
     width: 150px;
 }
 
-.jumbotron_title {
-    text-transform: uppercase;
-    color: white;
-    margin-top: 1rem;
-}
-
 .star_logo {
     display: flex;
     justify-content: center;
@@ -91,25 +83,16 @@ li a {
     font-size: .8rem;
 }
 
-.jumbotron_ref {
-    text-transform: uppercase;
-    color: white;
-}
-
 /* Section Portfolio */
-.portfolio_section {
+#portfolio {
     padding: 2rem 0;
 }
 
-.portfolio_section h2 {
-    text-transform: uppercase;
-}
-
-.portfolio_section .star {
+#portfolio .star {
     color: #2c3e50;
 }
 
-.portfolio_section .star_bar {
+#portfolio .star_bar {
     background-color: #2c3e50;
 }
 
@@ -154,15 +137,11 @@ li a {
 }
 
 /* Section about */
-.section_about {
+#about {
     padding: 4rem 0;
     margin-top: 3rem;
     background-color: #1abc9c;
     color: white;
-}
-
-.section_about h2 {
-    text-transform: uppercase;
 }
 
 .container_about {
@@ -171,10 +150,7 @@ li a {
 }
 
 .download_card a {
-    padding: .3rem .8rem;
     border: 1.5px solid white;
-    border-radius: 5px;
-    text-decoration: none;
     color: white;
 }
 
@@ -185,23 +161,18 @@ li a {
 }
 
 /* Section contact us */
-.section_contact_us {
+#contact {
     width: 60%;
     margin: auto;
     padding: 3rem 0;
     color: #2c3e50;
 }
 
-.section_contact_us h2 {
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
-.section_contact_us .star_bar {
+#contact .star_bar {
     background-color: #2c3e50;
 }
 
-.section_contact_us .star {
+#contact .star {
     color: #2c3e50;
 }
 
@@ -226,6 +197,17 @@ li a {
     color: white;
 }
 
+.btn_green:hover {
+    border: 1px solid #1abc9c;
+    background-color: white;
+    color: #1abc9c;
+}
+
+.btn_green:focus {
+    background-color: #1abc9c;
+    color: white;
+}
+
 /* Footer */
 .footer-top {
     padding: 2rem 0;
@@ -239,8 +221,8 @@ li a {
 }
 
 .footer-top ul li a i {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
